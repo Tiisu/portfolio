@@ -372,9 +372,9 @@ export default function Home() {
                 <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-2xl`} />
                 
                 <div className="relative z-10">
-                  <div className="flex items-center justify-between mb-3">
-                    <p className="text-zinc-500 text-sm uppercase tracking-wider font-medium">{project.category}</p>
-                    <span className={`text-xs px-2 py-1 rounded-full font-medium ${
+                  <div className="flex items-center justify-between gap-2 mb-3">
+                    <p className="text-zinc-500 text-sm uppercase tracking-wider font-medium flex-shrink">{project.category}</p>
+                    <span className={`text-xs px-3 py-1.5 rounded-full font-medium whitespace-nowrap flex-shrink-0 ${
                       project.type === 'Team Project' 
                         ? 'bg-blue-100 text-blue-700 border border-blue-200' 
                         : 'bg-zinc-100 text-zinc-600 border border-zinc-200'
