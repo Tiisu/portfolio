@@ -451,8 +451,68 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Skills Section */}
+      {/* Vision & Growth Section */}
       <section className="px-6 py-32 bg-zinc-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="fade-in-section max-w-4xl mx-auto text-center">
+            <h2 className="text-5xl md:text-6xl font-bold mb-8 text-zinc-900">Vision & Growth</h2>
+            <div className="h-1 w-32 bg-gradient-to-r from-zinc-900 to-transparent mx-auto mb-12" />
+            
+            <div className="space-y-8 text-left">
+              <div className="bg-white border-2 border-zinc-200 rounded-2xl p-8 hover:border-zinc-900 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-4 text-zinc-900">
+                  Building for Impact
+                </h3>
+                <p className="text-lg text-zinc-600 leading-relaxed">
+                  My goal is to leverage technology to solve real problems in my community. I&apos;m working towards 
+                  building software solutions that address local challenges and create meaningful impact in society.
+                </p>
+              </div>
+
+              <div className="bg-white border-2 border-zinc-200 rounded-2xl p-8 hover:border-zinc-900 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-4 text-zinc-900">
+                  Growth Path (1-2 Years)
+                </h3>
+                <p className="text-lg text-zinc-600 leading-relaxed mb-4">
+                  I&apos;m focused on deepening my expertise in systems engineering and design, building scalable 
+                  architectures that can serve growing user bases. My journey includes:
+                </p>
+                <ul className="space-y-3 text-zinc-600">
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-zinc-900 rounded-full mr-3 mt-2 flex-shrink-0" />
+                    <span>Mastering system design patterns and distributed systems</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-zinc-900 rounded-full mr-3 mt-2 flex-shrink-0" />
+                    <span>Building entrepreneurial ventures that solve community problems</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-zinc-900 rounded-full mr-3 mt-2 flex-shrink-0" />
+                    <span>Exploring artificial intelligence and machine learning applications</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="w-2 h-2 bg-zinc-900 rounded-full mr-3 mt-2 flex-shrink-0" />
+                    <span>Contributing to open source and sharing knowledge with others</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="bg-white border-2 border-zinc-200 rounded-2xl p-8 hover:border-zinc-900 transition-all duration-300">
+                <h3 className="text-2xl font-bold mb-4 text-zinc-900">
+                  Continuous Learning
+                </h3>
+                <p className="text-lg text-zinc-600 leading-relaxed">
+                  I believe in staying curious and adaptable. Currently exploring advanced system architecture, 
+                  cloud infrastructure, AI/ML technologies, and best practices in building products that scale both technically and socially.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Skills Section */}
+      <section className="px-6 py-32 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="fade-in-section mb-16">
             <h2 className="text-5xl md:text-6xl font-bold mb-6 text-zinc-900">Technical Expertise</h2>
